@@ -5,7 +5,7 @@ import { useState } from "react";
 import ExpensesList from "./ExpensesList";
 import ExpensesChart from "./ExpensesChart";
 const Expenses = (props) => {
-  const [selectedOptionValue, changedOptionValue] = useState("2024");
+  const [selectedOptionValue, changedOptionValue] = useState("2023");
   const selected = (option) => {
     changedOptionValue(option);
   };
